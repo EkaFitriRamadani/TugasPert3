@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad1"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biodata Mahasiswa"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:fontFamily="cursive"/>
+
+            <ImageView
+                android:layout_width="158dp"
+                android:layout_height="175dp"
+                android:src="@drawable/mypict"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Eka Fitri Ramadani"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nim"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="H071191043"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="TTL"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Longka, 21 November 2001"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="eka.efira@gmail.com"
+                    android:textSize="20dp"
+                    android:background="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="cursive"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Back to Beranda"
+                    android:backgroundTint="#40C4D5"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:onClick="backBeranda"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Article"
+                    android:backgroundTint="#40C4D5"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:onClick="backToArticle"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

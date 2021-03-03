@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad1"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayo Jangan Malas Cuci Tangan Biar Hidup Sehat!"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:fontFamily="serif-monospace"/>
+
+            <ImageView
+                android:layout_width="206dp"
+                android:layout_height="158dp"
+                android:src="@drawable/hand"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Menjaga kesehatan tubuh bisa dimulai dari hal-hal yang paling sederhana. Mencuci tangan misalnya. Mulai sekarang jadikan cuci tangan sebagai bagian dari gaya hidup Anda."
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:fontFamily="casual"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Tangan adalah organ tubuh yang paling vital untuk menunjang aktivitas sehari-hari. Dari tangan inilah akan tercipta karya-karya indah. Namun, dari tangan jugalah berbagai penyakit bisa menular. Tanpa disadari aktivitas sehari-hari membuat tangan selalu bersentuhan dengan benda-benda, mulai pulpen, keyboard computer, gagang pintu dan benda-benda lain."
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:fontFamily="casual"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Semenara itu, kita tidak pernah tahu, apakah benda-benda yang kita pegang tersebut bebas kuman dan virus? Nah, untuk mencegah bakteri atau virus berpindah ke dalam tubuh, ada baiknya lakukan cui tangan, khususnya sebelum dan sesudah makan. Ditengah maraknya berbagai virus baru belakangan ini, cuci angan menjadi salah satu senjata dasar untuk mengatasinya."
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:fontFamily="casual"
+                android:textSize="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Back to Beranda"
+                    android:backgroundTint="#40C4D5"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:onClick="backToBeranda"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Biodata"
+                    android:backgroundTint="#40C4D5"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:onClick="goToBiodata"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
